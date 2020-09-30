@@ -1,5 +1,5 @@
 # Overview
-HomeLibrary keeps track of your books and whether they've been read or not. 
+HomeLibrary keeps track of your books and whether they've been read or not. It utilizes the HashMap data structure.
 * V to view your list of books
 * A to add a book
 * X to remove a book
