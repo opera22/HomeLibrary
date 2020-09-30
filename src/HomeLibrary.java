@@ -9,6 +9,7 @@ public class HomeLibrary {
 
         Scanner scanner = new Scanner(System.in);
         String userInput = "";
+        String bookName = "";
 
         System.out.println("\n----------------------------\nWelcome to the library tool!\n----------------------------");
 
@@ -19,7 +20,6 @@ public class HomeLibrary {
 
             userInput = scanner.nextLine();
             userInput = userInput.toLowerCase();
-            String bookName = "";
 
             switch (userInput) {
                 case "v":
@@ -41,6 +41,7 @@ public class HomeLibrary {
                 case "r":
                     bookName = Tools.getBookName();
                     books.put(bookName, true);
+                    System.out.println(bookName + " marked read!\n");
                     break;
             }
         }
